@@ -63,7 +63,7 @@ def fight(player_poke, cpu_poke):
 
         # Check if CPU has fainted
         if cpu_hp <= 0:
-            print("\n🎉 You win!")
+            print("\n You win!")
             break
 
         # CPU attacks player
@@ -73,7 +73,7 @@ def fight(player_poke, cpu_poke):
 
         # Check if player has fainted
         if player_hp <= 0:
-            print("\n💀 You lost!")
+            print("\n You lost!")
             break
 
 # --- Main Game Flow ---
